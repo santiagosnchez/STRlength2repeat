@@ -96,7 +96,7 @@ def to_csv(repeats_a, repeats_b, indiv):
 
 if __name__ == "__main__":
     file = sys.argv[1]
-    indiv, markers = read_csv(file)
+    indiv, markers = read_csv(file) # read csv file with STR length data
     motif,shortest = get_motif(markers)
     repeats_a, repeats_b = get_repeats(markers, motif, shortest)
     to_csv(repeats_a, repeats_b, indiv)
