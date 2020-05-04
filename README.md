@@ -1,6 +1,6 @@
 # STRlength2repeat
 
-This program is meant to convert Short Tandem Repeat (STR) length data to number of tandem repetitions. This is specially useful for applying models of microsatellite evolution (Sainudiin et al. 2004)[#references] to infer divergence times or demographic models.
+This program is meant to convert Short Tandem Repeat (STR) length data to number of tandem repetitions. This is specially useful for applying models of microsatellite evolution \([Sainudiin et al. 2004](references)\) to infer divergence times or demographic models.
 
 The CSV output can be uploaded directly to [BEAST v2.6.2](https://github.com/CompEvol/beast2/releases) by installing the [BEASTvntr](https://github.com/rbouckaert/BEASTvntr) package.
 
