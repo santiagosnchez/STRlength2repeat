@@ -99,6 +99,6 @@ if __name__ == "__main__":
     indiv, markers = read_csv(file) # read csv file with STR length data
     motif,shortest = get_motif(markers)
     repeats_a, repeats_b = get_repeats(markers, motif, shortest)
-    to_csv(repeats_a, repeats_b, indiv)
+    to_csv(repeats_a, repeats_b, indiv) # export output file is CSV format
 
 # flatten = [item for sublist in list(zip(repeats_a[3], repeats_b[3])) for item in sublist]
