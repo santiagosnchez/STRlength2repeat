@@ -42,8 +42,8 @@ motif = range(2,11)
 mprop = []
 for m in motif:
     y = [ (x - min(locus)) % m for x in locus if x != 0 ]
-    mprop.append(round(float(sum([ x == 0 for x in y ]))/len(y),2)) # get the proportion with exact divisions
-shortest = min([ x for x in locus if x != 0 ]) # get shortest allele
+    mprop.append(round(float(sum([ x == 0 for x in y ]))/len(y),2))
+shortest = min([ x for x in locus if x != 0 ])
 bprop = max(mprop)
 besti = [ i for i in range(len(mprop)) if mprop[i] == bprop ]
 bestm = max([ motif[i] for i in besti])
